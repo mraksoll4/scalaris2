@@ -32,7 +32,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/blocknetdx/blocknet.git"
+- "url": "https://github.com/mraksoll4/scalaris.git"
   "dir": "blocknet"
 files: []
 script: |
