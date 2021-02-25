@@ -45,9 +45,10 @@ QTableView::item::selected, QTableWidget::item::selected, QTreeWidget::item::sel
 QTableView QHeaderView, QTableWidget QHeaderView, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { background-color: rgba(0, 0, 0, 30%); border-style: none; border: 0; }
 QTableView QHeaderView::section, QTableWidget QHeaderView::section, QTreeWidget QHeaderView::section { font-size: 9pt; color: #FFF; font-family: "Roboto"; padding: 6px; }
 QTableView QHeaderView::section::selected, QTableWidget QHeaderView::section::selected, QTreeWidget QHeaderView::section::selected { color: #547e7a; }
+QTableView::indicator, QTableWidget::indicator, QTreeWidget::indicator{ width: 6px; height: 6px; border: 1px solid #FFF; border-radius: 3px; }
 QTableView::indicator:checked, QTableWidget::indicator:checked, QTreeWidget::indicator:checked { background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.52, stop:0 #3ff108, stop:0.65 #3ff108, stop:0.70 rgba(0,0,0,0), stop:1 rgba(0,0,0,0)); }
 QTableView::indicator:unchecked, QTableWidget::indicator:unchecked, QTreeWidget::indicator:unchecked { background-color: transparent; }
-QTableView::indicator:indeterminate, QTableWidget::indicator:indeterminate, QTreeWidget::indicator:indeterminate { image: url(:/redesign/checkmark-partial); }
+QTableView::indicator:indeterminate, QTableWidget::indicator:indeterminate, QTreeWidget::indicator:indeterminate { background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.52, stop:0 #3ff108, stop:0.65 #3ff108, stop:0.70 rgba(0,0,0,0), stop:1 rgba(0,0,0,0)); }
 QTableView QHeaderView::down-arrow, QTableView QHeaderView::down-arrow, QTreeWidget QHeaderView::down-arrow { image: url(:/redesign/HeaderViewArrowDown); }
 QTableView QHeaderView::up-arrow, QTableView QHeaderView::up-arrow, QTreeWidget QHeaderView::up-arrow { image: url(:/redesign/HeaderViewArrowUp); }
 QTreeWidget::branch { color: rgba(0, 0, 0, 30%); }
