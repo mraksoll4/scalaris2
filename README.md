@@ -37,7 +37,7 @@ Release Method          | ITO, No Premine
 Proof Type              | Proof of Stake (PoS)
 Algo                    | Quark
 Block Time              | 60 seconds
-Block Reward / Fees     | 1.0 BLOCK awarded to stakers <br>0.015 BLOCK awarded to Service Nodes on DX trades <br>XRouter fees awarded to Service Nodes (customizable)
+Block Reward / Fees     | 1.0 BLOCK awarded to stakers <br>0.01 BLOCK awarded to Service Nodes on DX trades <br>XRouter fees awarded to Service Nodes (customizable)
 Superblock              | Up to 40,000 BLOCK
 Difficulty              | Adjusted per block
 Staking Requirement     | No minimum
